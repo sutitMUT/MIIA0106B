@@ -1,0 +1,192 @@
+#include <iostream>
+using namespace std;
+
+// ฟังก์ชันที่คืนค่าจำนวนเต็ม
+//int add(int x, int y) {
+//    return x + y; // ส่งผลลัพธ์ของ x + y กลับไป
+//}
+//
+//// ฟังก์ชันที่ไม่คืนค่า
+//void printHello() {
+//    cout << "Hello, World!" << endl;
+//}
+//
+//// ฟังก์ชันที่คืนค่าจำนวนจริง
+//double divide(double a, double b) {
+//    if (b != 0)
+//        return a / b; // ส่งค่าผลหาร
+//    else
+//        return 0.0;   // กรณีหารด้วยศูนย์
+//}
+
+int main() {
+	int i = 5;
+	for (int j = 1;j < 13;j++)
+	{
+		cout << j << "x" << i << "="<<(j * i) << "\n";
+
+	}
+
+	 i = 6;
+	for (int j = 1;j < 13;j++)
+	{
+		cout << j << "x" << i << "=" << (j * i) << "\n";
+
+	}
+
+	i = 7;
+	for (int j = 1;j < 13;j++)
+	{
+		cout << j << "x" << i << "=" << (j * i) << "\n";
+
+	}
+
+
+	/*cout << "Sum: " << add(3, 5) << endl;
+	printHello();
+	cout << "Division: " << divide(10.0, 2.0) << endl;*/
+	return 0;
+}
+
+
+
+// แก้ code ใช้ function 
+
+#include <iostream>
+using namespace std;
+
+// ฟังก์ชันที่คืนค่าจำนวนเต็ม
+//int add(int x, int y) {
+//    return x + y; // ส่งผลลัพธ์ของ x + y กลับไป
+//}
+//
+//// ฟังก์ชันที่ไม่คืนค่า
+//void printHello() {
+//    cout << "Hello, World!" << endl;
+//}
+//
+//// ฟังก์ชันที่คืนค่าจำนวนจริง
+//double divide(double a, double b) {
+//    if (b != 0)
+//        return a / b; // ส่งค่าผลหาร
+//    else
+//        return 0.0;   // กรณีหารด้วยศูนย์
+//}
+
+void fun1(int i)
+{
+	for (int j = 1;j < 21;j++)
+	{
+		cout << j << "x" << i << "=" << (j * i) << "\n";
+
+	}
+}
+
+int main() {
+	int i = 5;
+
+
+	fun1(i);
+	i = 6;
+	fun1(i);
+	i = 7;
+	fun1(i);
+
+
+	/*for (int j = 1;j < 13;j++)
+	{
+		cout << j << "x" << i << "="<<(j * i) << "\n";
+
+	}
+
+	 i = 6;
+	for (int j = 1;j < 13;j++)
+	{
+		cout << j << "x" << i << "=" << (j * i) << "\n";
+
+	}
+
+	i = 7;
+	for (int j = 1;j < 13;j++)
+	{
+		cout << j << "x" << i << "=" << (j * i) << "\n";
+
+	}*/
+
+
+	/*cout << "Sum: " << add(3, 5) << endl;
+	printHello();
+	cout << "Division: " << divide(10.0, 2.0) << endl;*/
+	return 0;
+}
+
+
+// ย้าย code 
+#include <iostream>
+using namespace std;
+
+// ฟังก์ชันที่คืนค่าจำนวนเต็ม
+//int add(int x, int y) {
+//    return x + y; // ส่งผลลัพธ์ของ x + y กลับไป
+//}
+//
+//// ฟังก์ชันที่ไม่คืนค่า
+//void printHello() {
+//    cout << "Hello, World!" << endl;
+//}
+//
+//// ฟังก์ชันที่คืนค่าจำนวนจริง
+//double divide(double a, double b) {
+//    if (b != 0)
+//        return a / b; // ส่งค่าผลหาร
+//    else
+//        return 0.0;   // กรณีหารด้วยศูนย์
+//}
+
+void fun1(int i)
+{
+	for (int j = 1;j < 21;j++)
+	{
+		cout << j << "x" << i << "=" << (j * i) << "\n";
+
+	}
+}
+
+int add(int i)
+{
+	int sum = 0;
+	for (int j = 1;j < i;j++)
+	{
+		sum = sum + j;
+	}
+	return sum;
+
+
+}
+
+void print_hello()
+{
+	cout << "Hello, World!" << endl;
+	cout << "Hello, World!" << endl;
+	cout << "Hello, World!" << endl;
+	cout << "Hello, World!" << endl;
+	cout << "Hello, World!" << endl;
+	cout << "Hello, World!" << endl;
+	cout << "Hello, World!" << endl;
+	cout << "Hello, World!" << endl;
+	cout << "Hello, World!" << endl;
+	cout << "Hello, World!" << endl;
+	cout << "Hello, World!" << endl;
+
+}
+
+int main() {
+
+	print_hello();
+	//
+	//
+	//
+
+
+	return 0;
+}
