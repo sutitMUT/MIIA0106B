@@ -1,20 +1,41 @@
-// LAB08_07.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+// กำหนดโครงสร้าง struct
+struct Student {
+    string studentID;
+    string nickname;
+    string lineID;
+    string phoneNumber;
+};
+
+int main() {
+    Student students[5]; // สร้างอาร์เรย์ของ struct ขนาด 5
+
+    // รับข้อมูลนักศึกษา
+    for (int i = 0; i < 5; i++) {
+        cout << "Enter information for student " << i + 1 << ":" << endl;
+        cout << "Student ID: ";
+        cin >> students[i].studentID;
+        cout << "Nickname: ";
+        cin >> students[i].nickname;
+        cout << "Line ID: ";
+        cin >> students[i].lineID;
+        cout << "Phone Number: ";
+        cin >> students[i].phoneNumber;
+        cout << endl;
+    }
+
+    // แสดงข้อมูลนักศึกษา
+    cout << "Student Information:" << endl;
+    for (int i = 0; i < 5; i++) {
+        cout << "Student " << i + 1 << ":" << endl;
+        cout << "  Student ID: " << students[i].studentID << endl;
+        cout << "  Nickname: " << students[i].nickname << endl;
+        cout << "  Line ID: " << students[i].lineID << endl;
+        cout << "  Phone Number: " << students[i].phoneNumber << endl;
+        cout << endl;
+    }
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
