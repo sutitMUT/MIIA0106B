@@ -21,7 +21,11 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
+<<<<<<< HEAD
     <ProjectGuid>{3c2f5022-3127-473a-b120-1ce8c060dc16}</ProjectGuid>
+=======
+    <ProjectGuid>{200e2128-e5cf-41f9-8ae8-bb0093c75355}</ProjectGuid>
+>>>>>>> origin/main
     <RootNamespace>LAB0807</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
