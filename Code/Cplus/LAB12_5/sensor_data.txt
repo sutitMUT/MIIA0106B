@@ -1,0 +1,2 @@
+Timestamp: 2025-02-15 00:05:02, Temperature: 25.3?C, Pressure: 101.3 kPa
+Timestamp: 2025-02-15 23:28:19, Temperature: 25.3?C, Pressure: 101.3 kPa
